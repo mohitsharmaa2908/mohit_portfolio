@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600;800&family=Playfair+Display&display=swap');
+
+body{
+    font-family: 'Kanit', sans-serif;
+font-family: 'Playfair Display', serif;
+}
+/* containers */
+.container {
+    padding-left: 1rem;
+    padding-right:1rem;
+}
+.container-center{
+    max-width: 600px;
+    margin:auto;
+}
+
+
+/* links */
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+
+}
+.primary-link{
+    background-color:rgb(83, 83, 200);
+    border-radius: 0.5rem;
+
+    color: white;
+}
