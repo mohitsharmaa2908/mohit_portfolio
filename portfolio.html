@@ -32,17 +32,18 @@
 
     <h2> @lists </h2>
     <h3> Unordered list </h3>
-    <ul>
+    <p> This will not have bullets</p>
+    <ul class="list-non-bullet">
         <li> Mango </li>
         <li> Papaya </li>
         <li> Carrot </li>
         
     </ul> 
     <h3> inline ordered list </h3>
-    <ol>
-        <li> ok </li>
-        <li> bye </li>
-        <li> tata </li>
+    <ol class="list-non-bullet">
+        <li class="list-item-inline"> ok </li>
+        <li class="list-item-inline"> bye </li class="list-item-inline">
+        <li class="list-item-inline"> tata </li class="list-item-inline">
         
     </ol>
     <h3> reverse ordered list </h3>
@@ -53,13 +54,18 @@
         
     </ol> <hr>
     <h2> @nav </h2>
-    <div> mohitshooo </div>
-    <ul>
+     <nav class="navigation container"> 
+     <div class="nav-brand">   maaashooo </div>
+    <ul class="list-non-bullet nav-pills">
         
-        <li>Home </li>
-        <li>Products</li>
-        <li>About </li>
-    </ul> <hr>
+        <li class="list-item-inline link-active ">
+            <a class="link " href="/"> Home</a>
+             </li>
+        <li class="list-item-inline">
+            <a class="link" href="/"> Products</a></li>
+        <li class="list-item-inline">
+            <a class="link" href="/">About</a> </li>
+    </ul> </nav> <hr>
     
     <h2> @Header </h2>
     <img src="images/programing.svg" />
