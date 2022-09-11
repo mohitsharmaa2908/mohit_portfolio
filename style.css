@@ -27,13 +27,15 @@ font-family: 'Playfair Display', serif;
 }
 .primary-link{
     background-color:var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 1rem;
+    padding : .5rem 1rem;
 
     color: white;}
 
 .secondary-link {
     color:var(--primary-color);
     border-radius: .5rem ;
+    padding : .5rem 1rem;
     border: 1px solid var(--primary-color)
 }    
 
