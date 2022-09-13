@@ -7,6 +7,7 @@
 body{
     font-family: 'Kanit', sans-serif;
 font-family: 'Playfair Display', serif;
+margin:0px ;
 }
 /* containers */
 .container {
@@ -75,3 +76,51 @@ font-family: 'Playfair Display', serif;
     font-weight:bold ;
     
   }
+ /* header */
+
+ .hero{
+    padding: 2rem;
+ }
+ .hero-img{
+    max-width: 500px;
+    text-align: center;
+    display: block;
+    margin: auto;
+
+ }
+ .hero .hero-heading {
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(79, 78, 78);
+  padding-top: 1rem;
+ }
+
+ /* section */
+ 
+ .section {
+    padding: 2rem ;
+ }
+ 
+ .section h3 {
+    text-align: center;
+ }
+
+ .ow {
+    background-color: rgb(208, 208, 208);
+ }
+   
+ /* footer */
+ footer{
+  background-color: #ff5ba7;
+  padding:2rem 1rem;
+  text-align: center;
+  color: white;
+  border-top-right-radius:1rem ;
+ }
+ .footer.link{
+  color: wheat;
+ }
+ .footer.ul {
+  padding-inline-start: 0px;
+ }
+
