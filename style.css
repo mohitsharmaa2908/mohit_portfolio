@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600;800&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
 :root{
-    --primary-color: #ff5ba7 ;
+    --primary-color: #ef4444 ;
 }
 
-body{
-    font-family: 'Kanit', sans-serif;
-font-family: 'Playfair Display', serif;
-margin:0px ;
+body{   
+
+  font-family: 'Montserrat', sans-serif;
+  margin:0px ;
 }
 /* containers */
 .container {
@@ -111,16 +111,21 @@ margin:0px ;
    
  /* footer */
  footer{
-  background-color: #ff5ba7;
+  background-color: var(--primary-color);
   padding:2rem 1rem;
   text-align: center;
   color: white;
   border-top-right-radius:1rem ;
  }
  .footer.link{
-  color: wheat;
+  color: rgb(254, 254, 254);
  }
  .footer.ul {
   padding-inline-start: 0px;
+ }
+
+ .footer .footer-header{
+  font-weight: bold;
+  font-size: large;
  }
 
